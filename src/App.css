@@ -10,20 +10,87 @@ body {
     margin: 20px;
 }
 
+
 .container {
     width: 960px;
     margin: 0 auto;
+    background-color:black;
 }
 /* TODO: Add css here */
-.tabs {
 
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0%;
+    height: 50px;
+}
+.tab{
+    background-color: black;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+   
+}
+.alltab {
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px 20px; 
+    color: rgb(77, 75, 75); 
+    font-size: 16px;
+    cursor: pointer; 
+   
+}
+.alltab:hover {
+    background-color: rgb(77, 75, 75); 
+    color: rgb(215, 204, 204);
+    transform: scale(1.05);
 }
 
+P{
+    width: fit-content;
+}
+h2{
+  margin-bottom: 20px;
+}
 
+.active-tab {
+    display: flex;
+    width: 60px;
+    height: 100%;
+    padding: 10px 20px; 
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    font-size: 16px; 
+   position: relative;
+}
+
+.tab-content{
+display: flex;
+background-color: white;
+padding: 50px;
+}
+.contnent{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.active-content{
+    display: block;
+}
 @media only screen and (max-width: 960px) {
 
     .container {
+        background-color: white;
         width: 100%;
+        
     }
 
     .content {
