@@ -1,10 +1,36 @@
 # react-tabs-challenge
 
-Implement the Following `Tabs` Component
+![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)
 
-Fetch the text for the tabs from https://loripsum.net/ utilize the rest api there.
-Implement caching, state management
+---
 
-![Preview Gif](https://github.com/Mereb-Tech/react-tabs-challenge/blob/main/preview.gif)
+## Overview
 
-<img width="979" alt="screenshot" src="https://user-images.githubusercontent.com/108453092/181007694-d9b59f74-5a09-480c-b562-30efc27dfe1a.png">
+I successfully completed the **Tabs Challenge**. This project showcases a customizable tabs component built with React.
+
+---
+
+## Features
+
+- **Dynamic Content**: Fetches text for the tabs from the [Loripsum API](https://loripsum.net/).
+- **State Management**: Implements caching for efficient data retrieval.
+- **User-Friendly Interface**: Designed for seamless user interaction.
+
+---
+
+## Preview
+
+
+
+https://github.com/user-attachments/assets/fc609f29-9d97-429a-8864-ce4333874cfd
+
+
+
+## Installation
+
+To get a local copy up and running:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Girma35/react-tabs-challenge-.git
+
