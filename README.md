@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/fc609f29-9d97-429a-8864-ce4333874cfd
 
 ## Installation
 
-To get a local copy up and running:
+To get a local copy up:
 
 1. Clone the repository:
    ```bash
